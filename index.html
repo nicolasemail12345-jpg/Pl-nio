@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plínio - O Cachorro da Anitta</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #fffaf8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ff6f91;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #ffb6c1;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff4081;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1601758125946-6ec2e0e6f8d8?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+      flex-direction: column;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #ff6f91;
+      margin-bottom: 40px;
+    }
+
+    .sobre {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .sobre img {
+      width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .sobre p {
+      max-width: 500px;
+      font-size: 1.1em;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #ff6f91;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🐾 Plínio - O Cachorro da Anitta 🐶</h1>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#curiosidades">Curiosidades</a>
+  </nav>
+
+  <div class="hero">
+    <h2>O melhor amigo da Anitta!</h2>
+    <p>Carisma, fofura e muito estilo!</p>
+  </div>
+
+  <section id="sobre">
+    <h2>Sobre o Plínio</h2>
+    <div class="sobre">
+      <img src="pliniotop.webp" alt="Plínio feliz">
+      <p>
+        Plínio é o famoso cachorro da cantora Anitta!  
+        Conhecido por sua personalidade divertida e por aparecer frequentemente nas redes sociais da artista,
+        ele conquistou o coração dos fãs.  
+        Com um estilo único e muito amor, Plínio é praticamente uma celebridade canina!
+      </p>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Fotos</h2>
+    <div class="galeria">
+      <img src="anitta-plinio-1742313161.jpg" alt="Plínio brincando">
+      <img src="images.jpg" alt="Plínio deitado">
+      <img src="pliniotop.webp" alt="Plínio olhando para a câmera">
+      <img src="plinioscat.jpg" alt="Plínio no parque">
+    </div>
+  </section>
+
+  <section id="curiosidades">
+    <h2>Curiosidades</h2>
+    <ul style="list-style: none; text-align: center; font-size: 1.1em;">
+      <li>🐾 Plínio tem seu próprio perfil nas redes sociais!</li>
+      <li>🎤 Ele já apareceu em videoclipes da Anitta.</li>
+      <li>❤️ É super mimado e adora posar para fotos.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Feito com ❤️ para o Plínio | © 2025</p>
+  </footer>
+
+</body>
+</html>
